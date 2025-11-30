@@ -8,7 +8,7 @@
 //   )
 // }
 import React, { useContext } from 'react'    //rafce
-import Buycredit from './pages/Buycredit'
+import BuyCredit from './pages/BuyCredit'
 import Home from './pages/Home'
 import Result from './pages/Result'
 import {Routes,Route} from 'react-router-dom'
