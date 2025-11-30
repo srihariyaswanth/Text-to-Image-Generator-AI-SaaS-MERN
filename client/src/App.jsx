@@ -1,12 +1,3 @@
-// export default function App() {
-//   return (
-//     <div className="flex min-h-screen items-center justify-center bg-gray-100">
-//       <h1 className="text-5xl font-bold text-blue-600">
-//         Tailwind v4 + Vite + React is working! 🚀
-//       </h1>
-//     </div>
-//   )
-// }
 import React, { useContext } from 'react'    //rafce
 import BuyCredit from './pages/BuyCredit'
 import Home from './pages/Home'
@@ -29,7 +20,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/result' element={<Result/>}/>
-        <Route path='/buy' element={<Buycredit/>}/>
+        <Route path='/buy' element={<BuyCredit/>}/>
       </Routes>
       <Footer/>
     </div>
